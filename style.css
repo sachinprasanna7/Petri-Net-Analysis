@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: blanchedalmond;
+  }
+
+  .button {
+    /* position: relative; */
+    padding: 0.5em 1em;
+    border: 0;
+    border-radius: 0.5em;
+    background-color: pink;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+
+
+  .button:active {
+    top: 2px;
+    left: 1px;
+    box-shadow: none;
+  }
+
+
+  .TransitionButton {
+    /* position: relative; */
+    padding: 0.5em 1em;
+    border: 0;
+    border-radius: 0.5em;
+    background-color: pink;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+
+
+  .TransitionButton:active {
+    top: 2px;
+    left: 1px;
+    box-shadow: none;
+  }
+
+  .arcButton {
+    /* position: relative; */
+    padding: 0.5em 1em;
+    border: 0;
+    border-radius: 0.5em;
+    background-color: pink;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+
+
+  .arcButton:active {
+    top: 2px;
+    left: 1px;
+    box-shadow: none;
+  }
+
+  .deleteButton {
+    /* position: relative; */
+    padding: 0.5em 1em;
+    border: 0;
+    border-radius: 0.5em;
+    background-color: pink;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+
+
+  .deleteButton:active {
+    top: 2px;
+    left: 1px;
+    box-shadow: none;
+  }
+
+  .analyseButton {
+    /* position: relative; */
+    padding: 0.5em 1em;
+    border: 0;
+    border-radius: 0.5em;
+    background-color: pink;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+
+
+  .analyseButton:active {
+    top: 2px;
+    left: 1px;
+    box-shadow: none;
+  }
+
+
+  #iconContainer {
+    position: absolute;
+  }
+
+  .node {
+    width: 2px; /* Adjust the width and height to make it a circle */
+    height: 2px;
+    border-radius: 50%; /* This property makes it a circle */
+    padding: 10px;
+    background-color: white; /* Replace 'cream' with the desired color */
+    border: 1.5px solid brown; /* Red outline */
+    position: absolute;
+  }
+
+
+  .transition {
+    width: 2px; /* Adjust the width and height to make it a rectangle */
+    height: 20px; /* Adjust the height as needed */
+    background-color: white; /* Replace 'cream' with the desired color */
+    border: 1.5px solid brown; /* Red outline */
+    position: absolute;
+}
